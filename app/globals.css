@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+html, body {
+  background-image: url("../public/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8a86b6;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a7a3d2;
+}
